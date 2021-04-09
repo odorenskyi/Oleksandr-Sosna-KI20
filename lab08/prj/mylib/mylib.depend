@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1617957927 source:d:\github\oleksandr-sosna-kb20\lab08\prj\mylib\main.cpp
+	<iostream>
+	<math.h>
+	<clocale>
+	"MyDevInfo.h"
+
+1617957927 d:\github\oleksandr-sosna-kb20\lab08\prj\mylib\mydevinfo.h
+

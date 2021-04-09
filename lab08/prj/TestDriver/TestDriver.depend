@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1617968722 source:d:\github\oleksandr-sosna-kb20\lab08\prj\testdriver\main.cpp
+	<iostream>
+	<windows.h>
+	<locale.h>
+	<io.h>
+	<fcntl.h>
+	"MyDevInfo.h"
+	<math.h>
+	<string>
+
