@@ -11,7 +11,8 @@ int main()
     cout << "Sosna Oleksandr. CNTU 2021. (c)" << endl;
     setlocale(LC_ALL, "Ukr");
 
-    float x, y, z, S;
+    int x, y, z;
+    float S;
     char a, b;
     int result;
 
