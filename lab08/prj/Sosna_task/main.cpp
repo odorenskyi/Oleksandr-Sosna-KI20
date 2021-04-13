@@ -3,6 +3,7 @@
 #include <windows.h>
 #include <locale.h>
 #include  <stdio.h>
+#include <math.h>
 
 using namespace std;
 
@@ -16,12 +17,18 @@ int main()
     char a, b;
     int result;
 
-    cout << "¬ведiть значенн€ x: ";
+    do {cout << "¬ведiть значенн€ x: ";
     cin >> x;
     cout << "¬ведiть значенн€ y: ";
     cin >> y;
-    cout << "¬ведiть значенн€ z: ";
+    do {cout << "¬ведiть значенн€ z: ";
     cin >> z;
+    if (z < 0)
+        cout << "z не може бути меньше 0 " << endl;
+    }while (z < 0);
+    if (((y+4*((x*x*x) + cos(z))) ==0))
+        cout << "¬ведений неправильний набiр даних" << endl;
+    }while ((y+4*((x*x*x) + cos(z))) ==0);
     cout << "¬ведiть значенн€ a: ";
     cin >> a;
     cout << "¬ведiть значенн€ b: ";
