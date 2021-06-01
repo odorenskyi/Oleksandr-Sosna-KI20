@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1622566520 source:d:\oleksandr-sosna-kb20\lab10\prj\sosna_task\main.cpp
+	<iostream>
+	<math.h>
+	<clocale>
+	"MyDevInfo.h"
+	<fstream>
+	<ctime>
+	<windows.h>
+
